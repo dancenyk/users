@@ -10,4 +10,40 @@ h1 {
   color: #333;
 }
 
+#listaUsuarios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  
+}
+
+.tarjeta{
+  width: 400px;
+  height: 200px;
+  background-color: #ffffff;
+}
+.infoPersonal{
+  flex-direction: column;
+  border: 2px solid rgb(191, 187, 187);
+  height: 100px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.infoSecudaria{
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+img{
+  height: 100px;
+}
+
 
